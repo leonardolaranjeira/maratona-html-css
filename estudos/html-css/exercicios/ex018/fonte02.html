@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        /* Tipos de format
+            - opentype: (otf)
+            - truetype: (ttf)
+            - embedded-opentype: (eot)
+            - truetype-aat: (Apple advanced Typography)
+            - svg: (svg)
+            */ 
+        @font-face {
+            font-family: 'Love';
+            src: url('fonts/Lovely\ Valentine\ Sans.ttf') format('truetype'), url('fonts/Lovely\ Valentine\ Sans.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            font-family: 'Love', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+
+    </style>
+
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, vero! Velit voluptas at minus in modi optio maxime autem tempore delectus quos obcaecati blanditiis libero unde, earum impedit. Omnis, facilis.</p>
+</body>
+</html>
