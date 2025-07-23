@@ -1,0 +1,155 @@
+@charset "UTF-8";
+
+@font-face {
+            font-family: 'Robo';
+            src: url(../desafio010/fontes/idroid.otf) format('opentype');
+            font-weight: normal;
+            font-style: normal;
+            color: #1B5B38;
+        }
+
+body {
+    background-color: #84E0AD;
+    margin: 0px;
+    padding-bottom: 50px;
+}
+
+/* Divisão de partes do site */
+
+header {
+    background: linear-gradient(to top, #1B5B38, #3CDA83);
+    color: white;
+    padding: 10px 0px;
+    width: 100%;
+}
+header > p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 600;
+    padding: 0px 0px 10px 0px;
+    font-size: 1em;
+}
+
+h1 { /* GLOBAL */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 1.8em;
+}
+
+nav {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+nav > a {
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+    white-space: nowrap;
+}
+a:hover {
+    color: #cbffe2;
+}
+
+/* Divisão de partes do site */
+
+main {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: justify;
+    min-width: 320px;
+}
+main > section > h1 {
+    font-family: 'Robo', Arial, sans-serif;
+    text-align: left;
+    font-weight: normal;
+    font-size: 2em;
+    color: #205B3F;
+}
+main > section > h2 {
+    background: linear-gradient(to right, #C7EBD5, white);
+    font-family: 'Robo', Arial, sans-serif;
+    font-weight: normal;
+    font-size: 1.5em;
+    color: #205B3F;
+}
+main > section > p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 25px;
+    line-height: 1.6em;
+}
+main > section > p > span {
+    color: #1B5B38;
+    font-weight: bold;
+}
+main > section > p > a {
+    color: #1B5B38;
+    font-weight: bold;
+    text-decoration: none;
+}
+main > section > p > a:hover {
+    color: #5bc28a;
+}
+main > section > aside > img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+main > section > div {
+    background-color: #C5EAD6;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+main > section > div > h2 {
+    background-color: #2FA865;
+    border-radius: 10px 10px 0px 0px;
+    padding: 8px;
+    margin: 0px;
+    width: 100%;
+    text-align: left;
+    color: white;
+    font-size: 1em;
+}
+main > section > div > p {
+    text-indent: 25px;
+    padding: 0px 10px;
+    margin: 8px;
+}
+main > section > div > p > a {
+    color: #1B5B38;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Divisão de partes do site */
+
+footer {
+    background-color: #1B5B38;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    padding: 5px 0px;
+}
+footer > p {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+footer > p > span {
+    color: #a1ffcc;
+}
