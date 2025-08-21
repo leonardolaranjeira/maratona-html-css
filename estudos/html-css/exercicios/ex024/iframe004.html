@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segurança em Iframe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        iframe {
+            width: 100%;
+            height: 300px;
+            border: 1px solid #ccc;
+        }
+        h1 {
+            color: #333;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Meu site Principal</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque repudiandae labore quidem saepe distinctio explicabo doloribus perspiciatis harum esse dolore molestiae minus mollitia, culpa laborum vitae laboriosam ipsam vero eius!</p>
+
+    <iframe src="paginas-extra/pag004.html" sandbox="allow-same-origin allow-forms allow-scripts" referrerpolicy="no-referrer">
+        <p>Seu navegador não suporta iframes.</p>
+    </iframe>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia voluptas illo quo pariatur molestias amet aliquid, ducimus quos eligendi odit, sunt est, odio nostrum itaque repellat ab recusandae natus adipisci? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto tempora enim quaerat incidunt exercitationem impedit quia sapiente eum minima laudantium eius dolorum quos, quasi quam eaque ratione omnis nobis illum! Lorem ipsum dolor sit amet consectetur adipisicing elit. In voluptate dolores, cum similique numquam maxime earum sapiente ducimus laudantium unde ipsam aspernatur nam saepe nobis consequatur. Sint eum ducimus inventore.</p>
+</body>
+</html>
